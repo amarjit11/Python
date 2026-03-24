@@ -1,0 +1,13 @@
+prefix=/Users/amarjitkumar_11/Downloads/VSCODE/python/venv
+exec_prefix=/Users/amarjitkumar_11/Downloads/VSCODE/python/venv
+libdir=/Users/amarjitkumar_11/Downloads/VSCODE/python/venv/lib
+sharedlibdir=/Users/amarjitkumar_11/Downloads/VSCODE/python/venv/lib
+includedir=/Users/amarjitkumar_11/Downloads/VSCODE/python/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
